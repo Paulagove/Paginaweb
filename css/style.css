@@ -8,7 +8,15 @@ body {
   font-weight: normal;
   font-family: Helvetica, sans-serif;
   margin: 0;
+
 }
+
+.videos_inicio {
+  padding: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+
 
 nav {
   width: 100%;
@@ -141,7 +149,7 @@ h2 {
   padding: 10px 10px;
 }
 
-.FotoFamilia2 {
+.FotoPequeña {
   width: auto;
   height: 350px;
   padding: 10px 10px;
@@ -150,8 +158,8 @@ h2 {
 
 .imagenes-sobremi {
   display: flex;
-  justify-content:center;
-  padding: 5px;
+  justify-content: center;
+  padding: 10px 10p;
   align-content: center;
 }
 
@@ -161,7 +169,7 @@ h2 {
   height: 650px;
   padding: 10px;
   margin: 0 auto;
-  
+
 }
 
 .formulario {
@@ -195,83 +203,17 @@ button[type="submit"] {
 
   display: flex;
   justify-content: space-between;
-  padding: 5px;
   align-content: center;
+  padding: 10px 10px;
+  width: auto;
+  height: 400px;
+
 }
 
-.fotocielo1 {
-  width: 300px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotodiscos {
-  width: 300px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotofestiflora {
-  width: 300px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotocielo2 {
-  width: 295px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotoatardecer2 {
-  width: 330px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotopulpos {
-  width: 400px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotogirasol {
-  width: 300px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotoromanos {
-  width: 225px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotoflores {
-  width: 225px;
-  height: 400px;
-  padding: 10px 10px;
-}
-
-.fotomar {
-  width: 533px;
-  height: 400px;
-  padding: 10px 10px;
-}
-.fotomontoro{
-  width: 255px;
-  height: 400px;
-  padding: 10px 10px;
-}
-.fotosegovia{
-  width: 255px;
-  height: 400px;
-  padding: 10px 10px;
-}
 .botonspotify button {
   width: 300px;
   height: 90px;
-  background-image: url('../img/logospotify.png'); 
+  background-image: url('../img/logospotify.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -281,23 +223,83 @@ button[type="submit"] {
   padding: 10px;
 }
 
-
 .botoninstagram button {
   width: 300px;
   height: 90px;
-  background-image: url('../img/logoinstagram.png'); 
+  background-image: url('../img/logoinstagram.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: none;
   cursor: pointer;
   border-radius: 10px;
- 
+
 }
+
 .posicionrss {
   display: flex;
   justify-content: center;
-  margin: 20px; 
+  margin: 20px;
+}
+
+.multimedia_meta {
+  padding: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.multimedia_meta iframe {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.objetivos {
+  text-align: left;
+}
+
+.listaFundamentos {
+  padding: 10px;
+  margin-left: 22%;
+  margin-bottom: 5%;
+  line-height: 1.5;
 
 }
 
+.bloques,
+.temas {
+  line-height: 1.5;
+  margin-left: 40px;
+}
+
+.pdfs {
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+
+.boton_paginas {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  margin: 20px;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+
+.boton_paginas p {
+  margin-top: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.boton_paginas p.m,
+p.d {
+  margin-left: 54px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 9px;
+  border: 2.5px solid #254771;
+  border-radius: 5px;
+  width: 250px;
+}
